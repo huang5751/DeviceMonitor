@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/styles/default.qss</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>src/qml/SimpleTest.qml</file>
+        <file>src/qml/DeviceDashboard.qml</file>
+        <file>src/qml/DeviceInfoCard.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,141 @@
+/* 主窗口 */
+QMainWindow {
+    background-color: #f5f7fa;
+}
+
+/* 按钮 */
+QPushButton {
+    background-color: #4dabf7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+QPushButton:hover {
+    background-color: #339af0;
+}
+
+QPushButton:pressed {
+    background-color: #1c7ed6;
+}
+
+QPushButton:disabled {
+    background-color: #adb5bd;
+    color: #868e96;
+}
+
+/* 开始/停止按钮 */
+QPushButton#startButton {
+    background-color: #40c057;
+}
+
+QPushButton#stopButton {
+    background-color: #fa5252;
+}
+
+/* 表格 */
+QTableView {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    selection-background-color: #4dabf7;
+    selection-color: white;
+}
+
+QHeaderView::section {
+    background-color: #343a40;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+/* 设备树 */
+QTreeWidget {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+QTreeWidget::item:selected {
+    background-color: #4dabf7;
+    color: white;
+}
+
+/* ===== 状态栏 ===== */
+QStatusBar {
+    background-color: white;
+    color: #212529;
+    border-top: 2px solid #4dabf7;
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+QStatusBar QLabel {
+    color: #495057;
+    padding: 0 10px;
+}
+
+/* 设备信息面板 */
+#deviceInfoWidget {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+#deviceNameLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #212529;
+}
+
+#deviceValueLabel {
+    font-size: 28px;
+    font-weight: bold;
+    color: #40c057;
+}
+
+/* 进度条 */
+QProgressBar {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #4dabf7;
+    border-radius: 5px;
+}
+
+/* 图表控件样式 */
+ChartWidget {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* 图表标题 */
+.chart-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* 坐标轴标签 */
+.axis-label {
+    font-size: 12px;
+    color: #495057;
+}
+
+/* 图例 */
+.chart-legend {
+    font-size: 11px;
+    color: #6c757d;
+}
