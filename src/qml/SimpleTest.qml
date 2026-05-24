@@ -17,7 +17,7 @@ Rectangle {
         font.pixelSize: 20
     }
 
-    // 一个简单的动画
+    // 简单动画测试
     Rectangle {
         x: 50
         y: 50

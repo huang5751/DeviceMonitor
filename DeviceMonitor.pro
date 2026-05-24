@@ -32,6 +32,7 @@ RESOURCES += resources.qrc
 QT += core gui widgets charts  # 加入 Qt charts
 QT += core gui network  # 加入 network
 QT += quick quickwidgets# 加入 qml 模块
+#QT += core gui sql# 加入 sql 模块
 
 # QML文件
 QML_FILES += \
@@ -40,3 +41,8 @@ QML_FILES += \
 
 # 启用调试输出
 CONFIG += console
+
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+# 链接MySQL驱动
+#LIBS += -lmysql

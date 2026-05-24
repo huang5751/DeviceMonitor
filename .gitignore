@@ -1,0 +1,23 @@
+# Qt Creator
+*.pro.user
+*.pro.user.*
+.qtcreator/
+
+# Build artifacts
+build/
+debug/
+release/
+*.o
+*.obj
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.exe
+
+# IDE / system
+.vs/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
